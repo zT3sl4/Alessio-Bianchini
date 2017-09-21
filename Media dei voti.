@@ -1,0 +1,26 @@
+html>
+<head> 
+<title>Media dei voti</title> 
+</head>
+
+<body>
+<?php 
+/*
+*calcolo della media deu voti
+*/
+$voti = array(5, 8, 9, 7, 6, 8, 9, 8, 6);
+$limite = count($voti);
+$i=0;
+$somma = 0;
+while ($i<$limite)
+{
+$somma += $voti[i];
+$i++;
+}
+$media = $somma / $limite;
+echo "<h2>Media dei voti: " . $media . "</h2>";
+?>
+<body>
+<body>
+
+</html>
